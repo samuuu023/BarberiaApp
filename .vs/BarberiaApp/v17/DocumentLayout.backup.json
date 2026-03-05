@@ -23,7 +23,7 @@
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Barberia.Tests",
+              "Title": "Barberia.Tests.csproj",
               "DocumentMoniker": "C:\\Users\\Samuu\\source\\repos\\BarberiaApp\\Barberia.Tests\\Barberia.Tests.csproj",
               "RelativeDocumentMoniker": "Barberia.Tests\\Barberia.Tests.csproj",
               "ToolTip": "C:\\Users\\Samuu\\source\\repos\\BarberiaApp\\Barberia.Tests\\Barberia.Tests.csproj",
@@ -31,8 +31,7 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
               "WhenOpened": "2026-03-02T01:14:19.982Z",
-              "IsPinned": true,
-              "EditorCaption": ""
+              "IsPinned": true
             },
             {
               "$type": "Document",
