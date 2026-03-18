@@ -1,0 +1,6 @@
+C:\Users\Samuu\source\repos\BarberiaApp\Barberia.Entidades\bin\Debug\Barberia.Entidades.dll
+C:\Users\Samuu\source\repos\BarberiaApp\Barberia.Entidades\bin\Debug\Barberia.Entidades.pdb
+C:\Users\Samuu\source\repos\BarberiaApp\Barberia.Entidades\obj\Debug\Barberia.Entidades.csproj.AssemblyReference.cache
+C:\Users\Samuu\source\repos\BarberiaApp\Barberia.Entidades\obj\Debug\Barberia.Entidades.csproj.CoreCompileInputs.cache
+C:\Users\Samuu\source\repos\BarberiaApp\Barberia.Entidades\obj\Debug\Barberia.Entidades.dll
+C:\Users\Samuu\source\repos\BarberiaApp\Barberia.Entidades\obj\Debug\Barberia.Entidades.pdb

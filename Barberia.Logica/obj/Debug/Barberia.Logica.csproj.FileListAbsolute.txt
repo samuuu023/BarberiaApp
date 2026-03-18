@@ -1,0 +1,13 @@
+C:\Users\Samuu\source\repos\BarberiaApp\Barberia.Logica\bin\Debug\Barberia.Logica.dll
+C:\Users\Samuu\source\repos\BarberiaApp\Barberia.Logica\bin\Debug\Barberia.Logica.pdb
+C:\Users\Samuu\source\repos\BarberiaApp\Barberia.Logica\bin\Debug\Barberia.AccesoDatos.dll
+C:\Users\Samuu\source\repos\BarberiaApp\Barberia.Logica\bin\Debug\Barberia.Entidades.dll
+C:\Users\Samuu\source\repos\BarberiaApp\Barberia.Logica\bin\Debug\Barberia.AccesoDatos.pdb
+C:\Users\Samuu\source\repos\BarberiaApp\Barberia.Logica\bin\Debug\Barberia.Entidades.pdb
+C:\Users\Samuu\source\repos\BarberiaApp\Barberia.Logica\obj\Debug\Barberia.Logica.csproj.AssemblyReference.cache
+C:\Users\Samuu\source\repos\BarberiaApp\Barberia.Logica\obj\Debug\Barberia.Logica.csproj.CoreCompileInputs.cache
+C:\Users\Samuu\source\repos\BarberiaApp\Barberia.Logica\obj\Debug\Barberia.40C54B67.Up2Date
+C:\Users\Samuu\source\repos\BarberiaApp\Barberia.Logica\obj\Debug\Barberia.Logica.dll
+C:\Users\Samuu\source\repos\BarberiaApp\Barberia.Logica\obj\Debug\Barberia.Logica.pdb
+C:\Users\Samuu\source\repos\BarberiaApp\Barberia.Logica\bin\Debug\System.Data.SqlClient.dll
+C:\Users\Samuu\source\repos\BarberiaApp\Barberia.Logica\bin\Debug\System.Data.SqlClient.xml
