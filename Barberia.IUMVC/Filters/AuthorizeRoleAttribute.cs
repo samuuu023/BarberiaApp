@@ -18,12 +18,14 @@ namespace Barberia.IUMVC.Filters
             var usuario = context.HttpContext.Session.GetString("usuario");
             var rol = context.HttpContext.Session.GetString("rol");
 
-            if (usuario == null)
+            // 🔴 SIN SESIÓN
+            if (string.IsNullOrEmpty(usuario) || string.IsNullOrEmpty(rol))
             {
                 context.Result = new RedirectToActionResult("Index", "Login", null);
                 return;
             }
 
+            // 🔴 ROL NO PERMITIDO
             if (!roles.Contains(rol))
             {
                 context.Result = new RedirectToActionResult("Index", "Home", null);

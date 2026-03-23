@@ -12,7 +12,7 @@ namespace Barberia.Entidades
         public TimeSpan Hora { get; set; }
         public string Estado { get; set; }
 
-        // 🔥 NUEVO (para mostrar en vistas)
+        // 🔥 PARA MOSTRAR EN VISTA
         public string NombreCliente { get; set; }
         public string NombreBarbero { get; set; }
         public string NombreServicio { get; set; }

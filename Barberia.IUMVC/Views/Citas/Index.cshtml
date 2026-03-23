@@ -1,21 +1,23 @@
 ﻿@model List<Barberia.Entidades.Cita>
 
-<h2>Mis Citas</h2>
-
-@if (TempData["Success"] != null)
-{
-    <div class="alert alert-success">@TempData["Success"]</div>
-}
+<h2 class="mb-4">Gestión de Citas</h2>
 
 @if (TempData["Error"] != null)
 {
     <div class="alert alert-danger">@TempData["Error"]</div>
 }
 
-<a asp-action="Crear" class="btn btn-primary mb-3">Nueva Cita</a>
+@if (TempData["Success"] != null)
+{
+    <div class="alert alert-success">@TempData["Success"]</div>
+}
 
-<table class="table table-bordered">
-    <thead>
+<a asp-action="Crear" class="btn btn-primary mb-3">
+    Nueva Cita
+</a>
+
+<table class="table table-bordered table-striped">
+    <thead class="table-dark">
         <tr>
             <th>Cliente</th>
             <th>Barbero</th>
@@ -35,16 +37,26 @@
                 <td>@c.NombreBarbero</td>
                 <td>@c.NombreServicio</td>
                 <td>@c.Fecha.ToShortDateString()</td>
-                <td>@c.Hora.ToString(@"hh\:mm")</td>
-                <td>@c.Estado</td>
+                <td>@c.Hora</td>
+                <td>
+                    @if (c.Estado == "PROGRAMADA")
+                    {
+                        <span class="badge bg-success">Programada</span>
+                    }
+                    else if (c.Estado == "CANCELADA")
+                    {
+                        <span class="badge bg-danger">Cancelada</span>
+                    }
+                </td>
 
                 <td>
                     @if (c.Estado == "PROGRAMADA")
                     {
                         <a asp-action="Cancelar"
                            asp-route-id="@c.IdCita"
-                           class="btn btn-danger btn-sm">
-                            Cancelar
+                           class="btn btn-danger btn-sm"
+                           onclick="return confirm('¿Cancelar esta cita?');">
+                            ❌ Cancelar
                         </a>
                     }
                 </td>

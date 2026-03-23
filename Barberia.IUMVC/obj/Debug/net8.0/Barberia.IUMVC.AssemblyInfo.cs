@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Barberia.IUMVC")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+439fa4e1f7ec2b2fed49d5d7003973ca2659fb66")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+df40bdb74bac8c253025fe516ecfdbc1b0afce82")]
 [assembly: System.Reflection.AssemblyProductAttribute("Barberia.IUMVC")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Barberia.IUMVC")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

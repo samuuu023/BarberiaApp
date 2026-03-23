@@ -4,6 +4,7 @@ using Barberia.Entidades;
 using System.Linq;
 using Barberia.IUMVC.Filters;
 using System;
+using System.Collections.Generic;
 
 namespace Barberia.IUMVC.Controllers
 {
@@ -22,6 +23,7 @@ namespace Barberia.IUMVC.Controllers
 
             var lista = citaBL.Listar();
 
+            // 🔥 FILTRO POR ROL
             if (rol == "CLIENTE")
             {
                 var cliente = clienteBL.Listar()
@@ -40,6 +42,22 @@ namespace Barberia.IUMVC.Controllers
                 lista = barbero != null
                     ? lista.Where(x => x.IdBarbero == barbero.IdBarbero).ToList()
                     : new List<Cita>();
+            }
+
+            // 🔥 LLENAR NOMBRES
+            var clientes = clienteBL.Listar();
+            var barberos = barberoBL.Listar();
+            var servicios = servicioBL.Listar();
+
+            foreach (var c in lista)
+            {
+                var cliente = clientes.FirstOrDefault(x => x.IdCliente == c.IdCliente);
+                var barbero = barberos.FirstOrDefault(x => x.IdBarbero == c.IdBarbero);
+                var servicio = servicios.FirstOrDefault(x => x.IdServicio == c.IdServicio);
+
+                c.NombreCliente = cliente != null ? cliente.Nombre : "N/A";
+                c.NombreBarbero = barbero != null ? barbero.Nombre : "N/A";
+                c.NombreServicio = servicio != null ? servicio.Nombre : "N/A";
             }
 
             return View(lista);
@@ -64,6 +82,7 @@ namespace Barberia.IUMVC.Controllers
                 return RedirectToAction("Index");
 
             c.IdCliente = cliente.IdCliente;
+            c.Estado = "PROGRAMADA";
 
             try
             {
@@ -84,7 +103,7 @@ namespace Barberia.IUMVC.Controllers
             try
             {
                 citaBL.Cancelar(id);
-                TempData["Success"] = "Cita cancelada";
+                TempData["Success"] = "Cita cancelada correctamente";
             }
             catch (Exception ex)
             {
@@ -96,9 +115,9 @@ namespace Barberia.IUMVC.Controllers
 
         public JsonResult HorasDisponibles(int idBarbero, string fecha)
         {
-            DateTime f = DateTime.Parse(fecha);
+            DateTime fechaConvertida = DateTime.Parse(fecha);
 
-            var horas = citaBL.ObtenerHorasDisponibles(idBarbero, f);
+            var horas = citaBL.ObtenerHorasDisponibles(idBarbero, fechaConvertida);
 
             if (horas.Count == 0)
                 return Json(new List<string> { "NO DISPONIBLE" });

@@ -1,5 +1,65 @@
-﻿<select id="hora" name="Hora" class="form-control"></select>
+﻿@model Barberia.Entidades.Cita
 
+<h2 class="mb-4">Nueva Cita</h2>
+
+@if (TempData["Error"] != null)
+{
+    <div class="alert alert-danger">@TempData["Error"]</div>
+}
+
+<form method="post">
+
+    <!-- 🔥 BARBERO -->
+    <div class="mb-3">
+        <label class="form-label">Barbero</label>
+        <select id="barbero" name="IdBarbero" class="form-control" onchange="cargarHoras()">
+            <option value="">Seleccione</option>
+
+            @foreach (var b in ViewBag.Barberos)
+            {
+                <option value="@b.IdBarbero">@b.Nombre</option>
+            }
+        </select>
+    </div>
+
+    <!-- 🔥 SERVICIO -->
+    <div class="mb-3">
+        <label class="form-label">Servicio</label>
+        <select name="IdServicio" class="form-control">
+            <option value="">Seleccione</option>
+
+            @foreach (var s in ViewBag.Servicios)
+            {
+                <option value="@s.IdServicio">@s.Nombre</option>
+            }
+        </select>
+    </div>
+
+    <!-- 🔥 FECHA -->
+    <div class="mb-3">
+        <label class="form-label">Fecha</label>
+        <input type="date" id="fecha" name="Fecha" class="form-control" onchange="cargarHoras()" />
+    </div>
+
+    <!-- 🔥 HORA -->
+    <div class="mb-3">
+        <label class="form-label">Hora</label>
+        <select id="hora" name="Hora" class="form-control">
+            <option value="">Seleccione primero barbero y fecha</option>
+        </select>
+    </div>
+
+    <button type="submit" class="btn btn-success">
+        💾 Agendar Cita
+    </button>
+
+    <a asp-action="Index" class="btn btn-secondary">
+        ⬅ Volver
+    </a>
+
+</form>
+
+<!-- 🔥 SCRIPT HORAS DINÁMICAS -->
 <script>
     function cargarHoras() {
         let idBarbero = document.getElementById("barbero").value;
@@ -13,20 +73,21 @@
                 let select = document.getElementById("hora");
                 select.innerHTML = "";
 
-                if (data.length === 1 && data[0] === "NO DISPONIBLE") {
-                    let option = document.createElement("option");
-                    option.text = "NO DISPONIBLE";
-                    option.disabled = true;
-                    select.appendChild(option);
-                    return;
-                }
-
                 data.forEach(h => {
                     let option = document.createElement("option");
                     option.value = h;
                     option.text = h;
+
+                    // 🔥 BLOQUEAR SI NO DISPONIBLE
+                    if (h === "NO DISPONIBLE") {
+                        option.disabled = true;
+                    }
+
                     select.appendChild(option);
                 });
+            })
+            .catch(error => {
+                console.error("Error cargando horas:", error);
             });
     }
 </script>

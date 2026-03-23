@@ -31,7 +31,7 @@ namespace Barberia.AccesoDatos
             }
         }
 
-        // 🔥 LISTAR CON NOMBRES
+        // 🔥 LISTAR CON NOMBRES (AQUÍ ESTABA EL ERROR)
         public List<Cita> Listar()
         {
             List<Cita> lista = new List<Cita>();
@@ -42,12 +42,14 @@ namespace Barberia.AccesoDatos
 
                 string query = @"
                 SELECT c.*, 
-                       cl.nombre + ' ' + cl.apellido AS cliente,
-                       b.nombre + ' ' + b.apellido AS barbero,
+                       uc.nombre + ' ' + uc.apellido AS cliente,
+                       ub.nombre + ' ' + ub.apellido AS barbero,
                        s.nombre AS servicio
                 FROM citas c
                 INNER JOIN clientes cl ON c.id_cliente = cl.id_cliente
+                INNER JOIN usuarios uc ON cl.id_usuario = uc.id_usuario
                 INNER JOIN barberos b ON c.id_barbero = b.id_barbero
+                INNER JOIN usuarios ub ON b.id_usuario = ub.id_usuario
                 INNER JOIN servicios s ON c.id_servicio = s.id_servicio";
 
                 SqlCommand cmd = new SqlCommand(query, conn);
