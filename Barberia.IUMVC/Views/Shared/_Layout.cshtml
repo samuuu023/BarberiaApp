@@ -1,53 +1,58 @@
 ﻿<!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>@ViewData["Title"] - Barberia.IUMVC</title>
+    <title>@ViewData["Title"] - COOL BARBER SHOP</title>
+
     <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
-    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
-    <link rel="stylesheet" href="~/Barberia.IUMVC.styles.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/css/site.css" />
 </head>
+
 <body>
     <header>
-        <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
             <div class="container-fluid">
-                <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index">Barberia.IUMVC</a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse" aria-controls="navbarSupportedContent"
-                        aria-expanded="false" aria-label="Toggle navigation">
+
+                <a class="navbar-brand" asp-controller="Home" asp-action="Index">
+                    💈 COOL BARBER SHOP
+                </a>
+
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu">
                     <span class="navbar-toggler-icon"></span>
                 </button>
-                <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
-                    <ul class="navbar-nav flex-grow-1">
+
+                <div class="collapse navbar-collapse" id="menu">
+
+                    <ul class="navbar-nav me-auto">
 
                         @if (Context.Session.GetString("usuario") != null)
                         {
                             <li class="nav-item">
-                                <a class="nav-link text-dark" asp-controller="Home" asp-action="Index">Inicio</a>
+                                <a class="nav-link" asp-controller="Home" asp-action="Index">Inicio</a>
                             </li>
 
-                            @* SOLO ADMIN *@
                             @if (Context.Session.GetString("rol") == "ADMIN")
                             {
                                 <li class="nav-item">
-                                    <a class="nav-link text-dark" asp-controller="Usuario" asp-action="Index">Usuarios</a>
+                                    <a class="nav-link" asp-controller="Usuario" asp-action="Index">Usuarios</a>
                                 </li>
                             }
 
                             <li class="nav-item">
-                                <a class="nav-link text-dark" asp-controller="Clientes" asp-action="Index">Clientes</a>
+                                <a class="nav-link" asp-controller="Cliente" asp-action="Index">Clientes</a>
                             </li>
 
                             <li class="nav-item">
-                                <a class="nav-link text-dark" asp-controller="Barberos" asp-action="Index">Barberos</a>
+                                <a class="nav-link" asp-controller="Barbero" asp-action="Index">Barberos</a>
                             </li>
 
                             <li class="nav-item">
-                                <a class="nav-link text-dark" asp-controller="Servicios" asp-action="Index">Servicios</a>
+                                <a class="nav-link" asp-controller="Servicios" asp-action="Index">Servicios</a>
                             </li>
 
                             <li class="nav-item">
-                                <a class="nav-link text-dark" asp-controller="Citas" asp-action="Index">Citas</a>
+                                <a class="nav-link" asp-controller="Citas" asp-action="Index">Citas</a>
                             </li>
                         }
 
@@ -58,8 +63,8 @@
                         @if (Context.Session.GetString("usuario") != null)
                         {
                             <li class="nav-item">
-                                <span class="nav-link text-dark">
-                                    Bienvenido @Context.Session.GetString("usuario")
+                                <span class="nav-link text-white">
+                                    👤 @Context.Session.GetString("usuario")
                                 </span>
                             </li>
 
@@ -69,26 +74,37 @@
                                 </a>
                             </li>
                         }
+                        else
+                        {
+                            <li class="nav-item">
+                                <a class="nav-link text-info" asp-controller="Login" asp-action="Index">
+                                    Iniciar sesión
+                                </a>
+                            </li>
+
+                            <li class="nav-item">
+                                <a class="nav-link text-success" asp-controller="Login" asp-action="Registro">
+                                    Registrarse
+                                </a>
+                            </li>
+                        }
 
                     </ul>
+
                 </div>
             </div>
         </nav>
     </header>
-    <div class="container">
-        <main role="main" class="pb-3">
-            @RenderBody()
-        </main>
+
+    <div class="container mt-4">
+        @RenderBody()
     </div>
 
-    <footer class="border-top footer text-muted">
-        <div class="container">
-            &copy; 2026 - Barberia.IUMVC - <a asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
-        </div>
+    <footer class="text-center mt-5">
+        <hr />
+        <p>© 2026 - COOL BARBER SHOP 💈</p>
     </footer>
-    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+
     <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
-    <script src="~/js/site.js" asp-append-version="true"></script>
-    @await RenderSectionAsync("Scripts", required: false)
 </body>
 </html>

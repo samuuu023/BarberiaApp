@@ -1,45 +1,69 @@
 ﻿@model Barberia.Entidades.Usuario
 
-<h2>Editar Usuario</h2>
+<div class="container mt-4">
 
-<form method="post">
+    <h2 class="text-warning mb-4">Editar Usuario</h2>
 
-    <input type="hidden" asp-for="IdUsuario" />
+    <div class="card shadow p-4">
 
-    <div class="form-group">
-        <label>Nombre</label>
-        <input asp-for="Nombre" class="form-control" />
+        <form id="formEditar" method="post">
+
+            <input type="hidden" asp-for="IdUsuario" />
+
+            <div class="row">
+                <div class="col-md-6 mb-3">
+                    <label>Nombre</label>
+                    <input asp-for="Nombre" class="form-control" required />
+                </div>
+
+                <div class="col-md-6 mb-3">
+                    <label>Apellido</label>
+                    <input asp-for="Apellido" class="form-control" required />
+                </div>
+            </div>
+
+            <div class="mb-3">
+                <label>Correo</label>
+                <input asp-for="Correo" type="email" class="form-control" required />
+            </div>
+
+            <div class="mb-3">
+                <label>Password</label>
+                <input asp-for="Password" class="form-control" required />
+            </div>
+
+            <div class="mb-3">
+                <label>Rol</label>
+                <input asp-for="Rol" class="form-control" required />
+            </div>
+
+            <div class="mt-4">
+                <button type="button" onclick="editar()" class="btn btn-warning">
+                    ✏️ Actualizar
+                </button>
+
+                <a asp-action="Index" class="btn btn-secondary">
+                    Cancelar
+                </a>
+            </div>
+
+        </form>
+
     </div>
 
-    <div class="form-group">
-        <label>Apellido</label>
-        <input asp-for="Apellido" class="form-control" />
-    </div>
+</div>
 
-    <div class="form-group">
-        <label>Correo</label>
-        <input asp-for="Correo" class="form-control" />
-    </div>
-
-    <div class="form-group">
-        <label>Password</label>
-        <input asp-for="Password" class="form-control" />
-    </div>
-
-    <div class="form-group">
-        <label>Rol</label>
-        <input asp-for="Rol" class="form-control" />
-    </div>
-
-    <br>
-
-    <button class="btn btn-success">
-        Actualizar
-    </button>
-
-    <a asp-action="Index" class="btn btn-secondary">
-        Cancelar
-    </a>
-
-</form>
-
+<script>
+    function editar() {
+        Swal.fire({
+            title: '¿Actualizar usuario?',
+            icon: 'question',
+            showCancelButton: true,
+            confirmButtonText: 'Sí, actualizar'
+        }).then((result) => {
+            if (result.isConfirmed) {
+                document.getElementById("formEditar").submit();
+            }
+        });
+    }
+</script>

@@ -1,8 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Barberia.Entidades
 {
@@ -15,6 +11,10 @@ namespace Barberia.Entidades
         public DateTime Fecha { get; set; }
         public TimeSpan Hora { get; set; }
         public string Estado { get; set; }
-        public DateTime FechaCreacion { get; set; }
+
+        // 🔥 NUEVO (para mostrar en vistas)
+        public string NombreCliente { get; set; }
+        public string NombreBarbero { get; set; }
+        public string NombreServicio { get; set; }
     }
 }

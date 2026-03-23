@@ -1,0 +1,68 @@
+﻿@{
+    ViewData["Title"] = "Restablecer Contraseña";
+}
+
+<div class="container d-flex justify-content-center align-items-center vh-100">
+
+    <div class="card shadow p-4" style="width:400px;">
+
+        <h3 class="text-center text-primary mb-4">🔐 Nueva Contraseña</h3>
+
+        <form method="post">
+
+            <!-- 🔥 TOKEN (YA NO DEPENDE SOLO DE VIEWBAG) -->
+            <input type="hidden" name="token" value="@Context.Request.Query["token"]" />
+
+            <div class="mb-3">
+                <label>Nueva contraseña</label>
+                <input type="password" id="pass1" name="password" class="form-control" required />
+            </div>
+
+            <div class="mb-3">
+                <label>Confirmar contraseña</label>
+                <input type="password" id="pass2" class="form-control" required />
+            </div>
+
+            <!-- 🔥 BOTÓN SUBMIT REAL -->
+            <button type="submit" class="btn btn-success w-100">
+                🔄 Cambiar contraseña
+            </button>
+
+        </form>
+
+        @if (ViewBag.Mensaje != null)
+        {
+            <div class="alert alert-danger mt-3 text-center">
+                @ViewBag.Mensaje
+            </div>
+        }
+
+    </div>
+
+</div>
+
+<script>
+    document.querySelector("form").addEventListener("submit", function (e) {
+
+        let p1 = document.getElementById("pass1").value;
+        let p2 = document.getElementById("pass2").value;
+
+        if (p1 !== p2) {
+            e.preventDefault();
+            Swal.fire({
+                icon: 'error',
+                title: 'Las contraseñas no coinciden'
+            });
+            return;
+        }
+
+        if (p1.length < 4) {
+            e.preventDefault();
+            Swal.fire({
+                icon: 'warning',
+                title: 'La contraseña debe tener al menos 4 caracteres'
+            });
+            return;
+        }
+    });
+</script>

@@ -1,36 +1,15 @@
 ﻿using Microsoft.AspNetCore.Mvc;
-using Microsoft.AspNetCore.Mvc.Filters;
 using Barberia.Logica;
 using Barberia.Entidades;
 using System.Linq;
+using Barberia.IUMVC.Filters;
 
 namespace Barberia.IUMVC.Controllers
 {
+    [AuthorizeRole("ADMIN")]
     public class UsuarioController : Controller
     {
         UsuarioBL usuarioBL = new UsuarioBL();
-
-        // 🔒 PROTEGER + VALIDAR ROL
-        public override void OnActionExecuting(ActionExecutingContext context)
-        {
-            var usuario = HttpContext.Session.GetString("usuario");
-            var rol = HttpContext.Session.GetString("rol");
-
-            if (usuario == null)
-            {
-                context.Result = RedirectToAction("Index", "Login");
-                return;
-            }
-
-            // 🔥 SOLO ADMIN PUEDE ENTRAR
-            if (rol != "ADMIN")
-            {
-                context.Result = RedirectToAction("Index", "Home");
-                return;
-            }
-
-            base.OnActionExecuting(context);
-        }
 
         public IActionResult Index(string buscar)
         {

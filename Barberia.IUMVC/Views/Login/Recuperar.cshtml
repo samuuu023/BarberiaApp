@@ -1,0 +1,46 @@
+﻿@{
+    ViewData["Title"] = "Recuperar Contraseña";
+}
+
+<div class="container d-flex justify-content-center align-items-center vh-100">
+
+    <div class="card shadow p-4" style="width: 400px; border-radius:15px;">
+
+        <!-- 🔥 LOGO -->
+        <div class="text-center mb-3">
+            <img src="~/img/CBS1.png" width="100" />
+        </div>
+
+        <h3 class="text-center text-warning mb-4">Recuperar Contraseña</h3>
+
+        <form method="post">
+
+            <div class="mb-3">
+                <label>Correo registrado</label>
+                <input type="email" name="correo" class="form-control" placeholder="Ingresa tu correo" required />
+            </div>
+
+            <div class="d-grid">
+                <button class="btn btn-warning">
+                    📧 Enviar recuperación
+                </button>
+            </div>
+
+            <div class="text-center mt-3">
+                <a asp-action="Index" class="text-decoration-none">
+                    🔙 Volver al login
+                </a>
+            </div>
+
+        </form>
+
+        @if (ViewBag.Mensaje != null)
+        {
+            <div class="alert alert-info mt-3 text-center">
+                @ViewBag.Mensaje
+            </div>
+        }
+
+    </div>
+
+</div>

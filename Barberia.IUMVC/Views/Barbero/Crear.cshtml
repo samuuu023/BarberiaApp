@@ -1,0 +1,76 @@
+﻿@model Barberia.Entidades.Barbero
+
+@{
+    ViewData["Title"] = "Crear Barbero";
+}
+
+<div class="container mt-4">
+
+    <h2 class="text-success mb-4">Nuevo Barbero</h2>
+
+    <div class="card shadow p-4">
+
+        <form id="formCrear" asp-action="Crear" method="post">
+
+            <div class="row">
+                <div class="col-md-6 mb-3">
+                    <label>Nombre</label>
+                    <input asp-for="Nombre" class="form-control" required />
+                </div>
+
+                <div class="col-md-6 mb-3">
+                    <label>Apellido</label>
+                    <input asp-for="Apellido" class="form-control" required />
+                </div>
+            </div>
+
+            <div class="mb-3">
+                <label>Correo</label>
+                <input asp-for="Correo" type="email" class="form-control" required />
+            </div>
+
+            <div class="mb-3">
+                <label>Password</label>
+                <input asp-for="Password" type="password" class="form-control" required />
+            </div>
+
+            <div class="mb-3">
+                <label>Teléfono</label>
+                <input asp-for="Telefono" class="form-control" required />
+            </div>
+
+            <div class="mt-4">
+                <button type="button" onclick="guardar()" class="btn btn-success">
+                    💾 Guardar
+                </button>
+
+                <a asp-action="Index" class="btn btn-secondary">
+                    Cancelar
+                </a>
+            </div>
+
+        </form>
+
+    </div>
+
+</div>
+
+<!-- SWEETALERT -->
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+<script>
+    function guardar() {
+        Swal.fire({
+            title: '¿Crear barbero?',
+            text: "Se guardará en el sistema",
+            icon: 'question',
+            showCancelButton: true,
+            confirmButtonText: 'Sí, crear',
+            cancelButtonText: 'Cancelar'
+        }).then((result) => {
+            if (result.isConfirmed) {
+                document.getElementById("formCrear").submit();
+            }
+        });
+    }
+</script>

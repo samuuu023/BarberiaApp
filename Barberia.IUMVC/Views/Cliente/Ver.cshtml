@@ -1,0 +1,19 @@
+﻿@model Barberia.Entidades.Cliente
+
+<div class="container mt-4">
+
+    <h2 class="text-info mb-4">Detalle Cliente</h2>
+
+    <div class="card shadow p-4">
+
+        <p><b>Nombre:</b> @Model.Nombre</p>
+        <p><b>Apellido:</b> @Model.Apellido</p>
+        <p><b>Correo:</b> @Model.Correo</p>
+        <p><b>Teléfono:</b> @Model.Telefono</p>
+        <p><b>Fecha Nacimiento:</b> @Model.FechaNacimiento.ToShortDateString()</p>
+
+        <a asp-action="Index" class="btn btn-primary mt-3">Volver</a>
+
+    </div>
+
+</div>

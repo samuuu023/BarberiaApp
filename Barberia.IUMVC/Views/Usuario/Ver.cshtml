@@ -1,13 +1,23 @@
 ﻿@model Barberia.Entidades.Usuario
 
-<h2>Detalle Usuario</h2>
+<div class="container mt-4">
 
-<p><b>Nombre:</b> @Model.Nombre</p>
-<p><b>Apellido:</b> @Model.Apellido</p>
-<p><b>Correo:</b> @Model.Correo</p>
-<p><b>Rol:</b> @Model.Rol</p>
+    <h2 class="text-info mb-4">Detalle del Usuario</h2>
 
-<a asp-action="Index" class="btn btn-primary">
-    Volver
-</a>
+    <div class="card shadow p-4">
 
+        <p><b>Nombre:</b> @Model.Nombre</p>
+        <p><b>Apellido:</b> @Model.Apellido</p>
+        <p><b>Correo:</b> @Model.Correo</p>
+        <p>
+            <b>Rol:</b>
+            <span class="badge bg-info text-dark">@Model.Rol</span>
+        </p>
+
+        <a asp-action="Index" class="btn btn-primary mt-3">
+            Volver
+        </a>
+
+    </div>
+
+</div>

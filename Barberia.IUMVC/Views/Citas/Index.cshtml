@@ -1,0 +1,54 @@
+﻿@model List<Barberia.Entidades.Cita>
+
+<h2>Mis Citas</h2>
+
+@if (TempData["Success"] != null)
+{
+    <div class="alert alert-success">@TempData["Success"]</div>
+}
+
+@if (TempData["Error"] != null)
+{
+    <div class="alert alert-danger">@TempData["Error"]</div>
+}
+
+<a asp-action="Crear" class="btn btn-primary mb-3">Nueva Cita</a>
+
+<table class="table table-bordered">
+    <thead>
+        <tr>
+            <th>Cliente</th>
+            <th>Barbero</th>
+            <th>Servicio</th>
+            <th>Fecha</th>
+            <th>Hora</th>
+            <th>Estado</th>
+            <th>Acciones</th>
+        </tr>
+    </thead>
+
+    <tbody>
+        @foreach (var c in Model)
+        {
+            <tr>
+                <td>@c.NombreCliente</td>
+                <td>@c.NombreBarbero</td>
+                <td>@c.NombreServicio</td>
+                <td>@c.Fecha.ToShortDateString()</td>
+                <td>@c.Hora.ToString(@"hh\:mm")</td>
+                <td>@c.Estado</td>
+
+                <td>
+                    @if (c.Estado == "PROGRAMADA")
+                    {
+                        <a asp-action="Cancelar"
+                           asp-route-id="@c.IdCita"
+                           class="btn btn-danger btn-sm">
+                            Cancelar
+                        </a>
+                    }
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

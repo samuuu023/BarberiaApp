@@ -1,0 +1,116 @@
+﻿@model List<Barberia.Entidades.Barbero>
+
+<div class="container mt-4">
+
+    <h2 class="text-primary mb-4">Gestión de Barberos</h2>
+
+    <div class="row mb-3">
+
+        <div class="col-md-4">
+            <a asp-action="Crear" class="btn btn-success">
+                + Nuevo Barbero
+            </a>
+        </div>
+
+        <div class="col-md-8">
+            <form method="get" class="d-flex">
+
+                <input type="text" name="buscar"
+                       value="@Context.Request.Query["buscar"]"
+                       class="form-control me-2"
+                       placeholder="Buscar por nombre..." />
+
+                <button class="btn btn-primary me-2">
+                    Buscar
+                </button>
+
+                <a href="/Barbero" class="btn btn-secondary">
+                    Limpiar
+                </a>
+
+            </form>
+        </div>
+
+    </div>
+
+    <table class="table table-hover table-striped shadow">
+
+        <thead class="table-dark">
+            <tr>
+                <th>Nombre</th>
+                <th>Apellido</th>
+                <th>Correo</th>
+                <th>Teléfono</th>
+                <th class="text-center">Acciones</th>
+            </tr>
+        </thead>
+
+        <tbody>
+
+            @foreach (var b in Model)
+            {
+                <tr>
+                    <td>@b.Nombre</td>
+                    <td>@b.Apellido</td>
+                    <td>@b.Correo</td>
+                    <td>@b.Telefono</td>
+
+                    <td class="text-center">
+
+                        <!-- VER -->
+                        <a asp-action="Ver" asp-route-id="@b.IdBarbero"
+                           class="btn btn-info btn-sm">
+                            👁
+                        </a>
+
+                        <!-- EDITAR -->
+                        <a asp-action="Editar" asp-route-id="@b.IdBarbero"
+                           class="btn btn-warning btn-sm">
+                            ✏️
+                        </a>
+
+                        <!-- ELIMINAR -->
+                        <button onclick="eliminar(@b.IdBarbero)"
+                                class="btn btn-danger btn-sm">
+                            🗑
+                        </button>
+
+                    </td>
+
+                </tr>
+            }
+
+        </tbody>
+
+    </table>
+
+</div>
+
+@if (TempData["Success"] != null)
+{
+    <script>
+        Swal.fire({
+            icon: 'success',
+            title: '@TempData["Success"]',
+            timer: 2000,
+            showConfirmButton: false
+        });
+    </script>
+}
+
+<script>
+    function eliminar(id) {
+        Swal.fire({
+            title: '¿Eliminar barbero?',
+            text: 'Esta acción no se puede deshacer',
+            icon: 'warning',
+            showCancelButton: true,
+            confirmButtonText: 'Sí, eliminar',
+            cancelButtonText: 'Cancelar'
+        }).then((r) => {
+            if (r.isConfirmed) {
+                window.location = '/Barbero/Eliminar/' + id;
+            }
+        });
+    }
+</script>

@@ -3,60 +3,172 @@
   "WorkspaceRootPath": "C:\\Users\\Samuu\\source\\repos\\BarberiaApp\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{C71E561C-857F-4DAC-8857-9602791F9853}|Barberia.IUMVC\\Barberia.IUMVC.csproj|c:\\users\\samuu\\source\\repos\\barberiaapp\\barberia.iumvc\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C71E561C-857F-4DAC-8857-9602791F9853}|Barberia.IUMVC\\Barberia.IUMVC.csproj|solutionrelative:barberia.iumvc\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C71E561C-857F-4DAC-8857-9602791F9853}|Barberia.IUMVC\\Barberia.IUMVC.csproj|c:\\users\\samuu\\source\\repos\\barberiaapp\\barberia.iumvc\\views\\citas\\crear.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C71E561C-857F-4DAC-8857-9602791F9853}|Barberia.IUMVC\\Barberia.IUMVC.csproj|solutionrelative:barberia.iumvc\\views\\citas\\crear.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C71E561C-857F-4DAC-8857-9602791F9853}|Barberia.IUMVC\\Barberia.IUMVC.csproj|c:\\users\\samuu\\source\\repos\\barberiaapp\\barberia.iumvc\\controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C71E561C-857F-4DAC-8857-9602791F9853}|Barberia.IUMVC\\Barberia.IUMVC.csproj|solutionrelative:barberia.iumvc\\controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C71E561C-857F-4DAC-8857-9602791F9853}|Barberia.IUMVC\\Barberia.IUMVC.csproj|c:\\users\\samuu\\source\\repos\\barberiaapp\\barberia.iumvc\\views\\citas\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C71E561C-857F-4DAC-8857-9602791F9853}|Barberia.IUMVC\\Barberia.IUMVC.csproj|solutionrelative:barberia.iumvc\\views\\citas\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C71E561C-857F-4DAC-8857-9602791F9853}|Barberia.IUMVC\\Barberia.IUMVC.csproj|c:\\users\\samuu\\source\\repos\\barberiaapp\\barberia.iumvc\\controllers\\usuariocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C71E561C-857F-4DAC-8857-9602791F9853}|Barberia.IUMVC\\Barberia.IUMVC.csproj|solutionrelative:barberia.iumvc\\controllers\\usuariocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C71E561C-857F-4DAC-8857-9602791F9853}|Barberia.IUMVC\\Barberia.IUMVC.csproj|c:\\users\\samuu\\source\\repos\\barberiaapp\\barberia.iumvc\\controllers\\citascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C71E561C-857F-4DAC-8857-9602791F9853}|Barberia.IUMVC\\Barberia.IUMVC.csproj|solutionrelative:barberia.iumvc\\controllers\\citascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6DD58A36-B9BC-4A6A-B791-8D3D97EBAFCC}|Barberia.Logica\\Barberia.Logica.csproj|c:\\users\\samuu\\source\\repos\\barberiaapp\\barberia.logica\\citabl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6DD58A36-B9BC-4A6A-B791-8D3D97EBAFCC}|Barberia.Logica\\Barberia.Logica.csproj|solutionrelative:barberia.logica\\citabl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5C91CBED-F13B-4E07-A64E-21181CF3B773}|Barberia.AccesoDatos\\Barberia.AccesoDatos.csproj|c:\\users\\samuu\\source\\repos\\barberiaapp\\barberia.accesodatos\\citadal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5C91CBED-F13B-4E07-A64E-21181CF3B773}|Barberia.AccesoDatos\\Barberia.AccesoDatos.csproj|solutionrelative:barberia.accesodatos\\citadal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B01C1731-B639-426D-BC28-0179E7473899}|Barberia.Entidades\\Barberia.Entidades.csproj|c:\\users\\samuu\\source\\repos\\barberiaapp\\barberia.entidades\\cita.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B01C1731-B639-426D-BC28-0179E7473899}|Barberia.Entidades\\Barberia.Entidades.csproj|solutionrelative:barberia.entidades\\cita.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C71E561C-857F-4DAC-8857-9602791F9853}|Barberia.IUMVC\\Barberia.IUMVC.csproj|c:\\users\\samuu\\source\\repos\\barberiaapp\\barberia.iumvc\\views\\perfil\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C71E561C-857F-4DAC-8857-9602791F9853}|Barberia.IUMVC\\Barberia.IUMVC.csproj|solutionrelative:barberia.iumvc\\views\\perfil\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C71E561C-857F-4DAC-8857-9602791F9853}|Barberia.IUMVC\\Barberia.IUMVC.csproj|c:\\users\\samuu\\source\\repos\\barberiaapp\\barberia.iumvc\\controllers\\perfilcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C71E561C-857F-4DAC-8857-9602791F9853}|Barberia.IUMVC\\Barberia.IUMVC.csproj|solutionrelative:barberia.iumvc\\controllers\\perfilcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5C91CBED-F13B-4E07-A64E-21181CF3B773}|Barberia.AccesoDatos\\Barberia.AccesoDatos.csproj|c:\\users\\samuu\\source\\repos\\barberiaapp\\barberia.accesodatos\\horariodal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5C91CBED-F13B-4E07-A64E-21181CF3B773}|Barberia.AccesoDatos\\Barberia.AccesoDatos.csproj|solutionrelative:barberia.accesodatos\\horariodal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{C71E561C-857F-4DAC-8857-9602791F9853}|Barberia.IUMVC\\Barberia.IUMVC.csproj|c:\\users\\samuu\\source\\repos\\barberiaapp\\barberia.iumvc\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{C71E561C-857F-4DAC-8857-9602791F9853}|Barberia.IUMVC\\Barberia.IUMVC.csproj|solutionrelative:barberia.iumvc\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6DD58A36-B9BC-4A6A-B791-8D3D97EBAFCC}|Barberia.Logica\\Barberia.Logica.csproj|C:\\Users\\Samuu\\source\\repos\\BarberiaApp\\barberia.logica\\usuariobl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6DD58A36-B9BC-4A6A-B791-8D3D97EBAFCC}|Barberia.Logica\\Barberia.Logica.csproj|solutionrelative:barberia.logica\\usuariobl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C71E561C-857F-4DAC-8857-9602791F9853}|Barberia.IUMVC\\Barberia.IUMVC.csproj|c:\\users\\samuu\\source\\repos\\barberiaapp\\barberia.iumvc\\views\\usuario\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{C71E561C-857F-4DAC-8857-9602791F9853}|Barberia.IUMVC\\Barberia.IUMVC.csproj|solutionrelative:barberia.iumvc\\views\\usuario\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{C71E561C-857F-4DAC-8857-9602791F9853}|Barberia.IUMVC\\Barberia.IUMVC.csproj|c:\\users\\samuu\\source\\repos\\barberiaapp\\barberia.iumvc\\controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C71E561C-857F-4DAC-8857-9602791F9853}|Barberia.IUMVC\\Barberia.IUMVC.csproj|solutionrelative:barberia.iumvc\\controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{C71E561C-857F-4DAC-8857-9602791F9853}|Barberia.IUMVC\\Barberia.IUMVC.csproj|c:\\users\\samuu\\source\\repos\\barberiaapp\\barberia.iumvc\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{C71E561C-857F-4DAC-8857-9602791F9853}|Barberia.IUMVC\\Barberia.IUMVC.csproj|solutionrelative:barberia.iumvc\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C71E561C-857F-4DAC-8857-9602791F9853}|Barberia.IUMVC\\Barberia.IUMVC.csproj|c:\\users\\samuu\\source\\repos\\barberiaapp\\barberia.iumvc\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C71E561C-857F-4DAC-8857-9602791F9853}|Barberia.IUMVC\\Barberia.IUMVC.csproj|solutionrelative:barberia.iumvc\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C71E561C-857F-4DAC-8857-9602791F9853}|Barberia.IUMVC\\Barberia.IUMVC.csproj|c:\\users\\samuu\\source\\repos\\barberiaapp\\barberia.iumvc\\views\\usuario\\editar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{C71E561C-857F-4DAC-8857-9602791F9853}|Barberia.IUMVC\\Barberia.IUMVC.csproj|solutionrelative:barberia.iumvc\\views\\usuario\\editar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C71E561C-857F-4DAC-8857-9602791F9853}|Barberia.IUMVC\\Barberia.IUMVC.csproj|c:\\users\\samuu\\source\\repos\\barberiaapp\\barberia.iumvc\\views\\usuario\\ver.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{C71E561C-857F-4DAC-8857-9602791F9853}|Barberia.IUMVC\\Barberia.IUMVC.csproj|solutionrelative:barberia.iumvc\\views\\usuario\\ver.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5C91CBED-F13B-4E07-A64E-21181CF3B773}|Barberia.AccesoDatos\\Barberia.AccesoDatos.csproj|C:\\Users\\Samuu\\source\\repos\\BarberiaApp\\barberia.accesodatos\\usuariodal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5C91CBED-F13B-4E07-A64E-21181CF3B773}|Barberia.AccesoDatos\\Barberia.AccesoDatos.csproj|solutionrelative:barberia.accesodatos\\usuariodal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C71E561C-857F-4DAC-8857-9602791F9853}|Barberia.IUMVC\\Barberia.IUMVC.csproj|c:\\users\\samuu\\source\\repos\\barberiaapp\\barberia.iumvc\\views\\usuario\\crear.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{C71E561C-857F-4DAC-8857-9602791F9853}|Barberia.IUMVC\\Barberia.IUMVC.csproj|solutionrelative:barberia.iumvc\\views\\usuario\\crear.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{C71E561C-857F-4DAC-8857-9602791F9853}|Barberia.IUMVC\\Barberia.IUMVC.csproj|c:\\users\\samuu\\source\\repos\\barberiaapp\\barberia.iumvc\\controllers\\clientecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C71E561C-857F-4DAC-8857-9602791F9853}|Barberia.IUMVC\\Barberia.IUMVC.csproj|solutionrelative:barberia.iumvc\\controllers\\clientecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{C71E561C-857F-4DAC-8857-9602791F9853}|Barberia.IUMVC\\Barberia.IUMVC.csproj|c:\\users\\samuu\\source\\repos\\barberiaapp\\barberia.iumvc\\barberia.iumvc.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
       "RelativeMoniker": "D:0:0:{C71E561C-857F-4DAC-8857-9602791F9853}|Barberia.IUMVC\\Barberia.IUMVC.csproj|solutionrelative:barberia.iumvc\\barberia.iumvc.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{C71E561C-857F-4DAC-8857-9602791F9853}|Barberia.IUMVC\\Barberia.IUMVC.csproj|c:\\users\\samuu\\source\\repos\\barberiaapp\\barberia.iumvc\\views\\barbero\\editar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C71E561C-857F-4DAC-8857-9602791F9853}|Barberia.IUMVC\\Barberia.IUMVC.csproj|solutionrelative:barberia.iumvc\\views\\barbero\\editar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C71E561C-857F-4DAC-8857-9602791F9853}|Barberia.IUMVC\\Barberia.IUMVC.csproj|c:\\users\\samuu\\source\\repos\\barberiaapp\\barberia.iumvc\\controllers\\usuariocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C71E561C-857F-4DAC-8857-9602791F9853}|Barberia.IUMVC\\Barberia.IUMVC.csproj|solutionrelative:barberia.iumvc\\controllers\\usuariocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C71E561C-857F-4DAC-8857-9602791F9853}|Barberia.IUMVC\\Barberia.IUMVC.csproj|c:\\users\\samuu\\source\\repos\\barberiaapp\\barberia.iumvc\\controllers\\barberocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C71E561C-857F-4DAC-8857-9602791F9853}|Barberia.IUMVC\\Barberia.IUMVC.csproj|solutionrelative:barberia.iumvc\\controllers\\barberocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C71E561C-857F-4DAC-8857-9602791F9853}|Barberia.IUMVC\\Barberia.IUMVC.csproj|c:\\users\\samuu\\source\\repos\\barberiaapp\\barberia.iumvc\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C71E561C-857F-4DAC-8857-9602791F9853}|Barberia.IUMVC\\Barberia.IUMVC.csproj|solutionrelative:barberia.iumvc\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C71E561C-857F-4DAC-8857-9602791F9853}|Barberia.IUMVC\\Barberia.IUMVC.csproj|c:\\users\\samuu\\source\\repos\\barberiaapp\\barberia.iumvc\\filters\\authorizeroleattribute.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C71E561C-857F-4DAC-8857-9602791F9853}|Barberia.IUMVC\\Barberia.IUMVC.csproj|solutionrelative:barberia.iumvc\\filters\\authorizeroleattribute.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C71E561C-857F-4DAC-8857-9602791F9853}|Barberia.IUMVC\\Barberia.IUMVC.csproj|c:\\users\\samuu\\source\\repos\\barberiaapp\\barberia.iumvc\\views\\login\\reset.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C71E561C-857F-4DAC-8857-9602791F9853}|Barberia.IUMVC\\Barberia.IUMVC.csproj|solutionrelative:barberia.iumvc\\views\\login\\reset.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C71E561C-857F-4DAC-8857-9602791F9853}|Barberia.IUMVC\\Barberia.IUMVC.csproj|c:\\users\\samuu\\source\\repos\\barberiaapp\\barberia.iumvc\\views\\login\\recuperar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C71E561C-857F-4DAC-8857-9602791F9853}|Barberia.IUMVC\\Barberia.IUMVC.csproj|solutionrelative:barberia.iumvc\\views\\login\\recuperar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{C71E561C-857F-4DAC-8857-9602791F9853}|Barberia.IUMVC\\Barberia.IUMVC.csproj|c:\\users\\samuu\\source\\repos\\barberiaapp\\barberia.iumvc\\views\\login\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{C71E561C-857F-4DAC-8857-9602791F9853}|Barberia.IUMVC\\Barberia.IUMVC.csproj|solutionrelative:barberia.iumvc\\views\\login\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5C91CBED-F13B-4E07-A64E-21181CF3B773}|Barberia.AccesoDatos\\Barberia.AccesoDatos.csproj|C:\\Users\\Samuu\\source\\repos\\BarberiaApp\\barberia.accesodatos\\usuariodal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5C91CBED-F13B-4E07-A64E-21181CF3B773}|Barberia.AccesoDatos\\Barberia.AccesoDatos.csproj|solutionrelative:barberia.accesodatos\\usuariodal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C71E561C-857F-4DAC-8857-9602791F9853}|Barberia.IUMVC\\Barberia.IUMVC.csproj|c:\\users\\samuu\\source\\repos\\barberiaapp\\barberia.iumvc\\views\\barbero\\crear.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C71E561C-857F-4DAC-8857-9602791F9853}|Barberia.IUMVC\\Barberia.IUMVC.csproj|solutionrelative:barberia.iumvc\\views\\barbero\\crear.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C71E561C-857F-4DAC-8857-9602791F9853}|Barberia.IUMVC\\Barberia.IUMVC.csproj|c:\\users\\samuu\\source\\repos\\barberiaapp\\barberia.iumvc\\views\\barbero\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C71E561C-857F-4DAC-8857-9602791F9853}|Barberia.IUMVC\\Barberia.IUMVC.csproj|solutionrelative:barberia.iumvc\\views\\barbero\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C71E561C-857F-4DAC-8857-9602791F9853}|Barberia.IUMVC\\Barberia.IUMVC.csproj|c:\\users\\samuu\\source\\repos\\barberiaapp\\barberia.iumvc\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C71E561C-857F-4DAC-8857-9602791F9853}|Barberia.IUMVC\\Barberia.IUMVC.csproj|solutionrelative:barberia.iumvc\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6DD58A36-B9BC-4A6A-B791-8D3D97EBAFCC}|Barberia.Logica\\Barberia.Logica.csproj|C:\\Users\\Samuu\\source\\repos\\BarberiaApp\\barberia.logica\\usuariobl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6DD58A36-B9BC-4A6A-B791-8D3D97EBAFCC}|Barberia.Logica\\Barberia.Logica.csproj|solutionrelative:barberia.logica\\usuariobl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C71E561C-857F-4DAC-8857-9602791F9853}|Barberia.IUMVC\\Barberia.IUMVC.csproj|c:\\users\\samuu\\source\\repos\\barberiaapp\\barberia.iumvc\\views\\usuario\\editar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C71E561C-857F-4DAC-8857-9602791F9853}|Barberia.IUMVC\\Barberia.IUMVC.csproj|solutionrelative:barberia.iumvc\\views\\usuario\\editar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C71E561C-857F-4DAC-8857-9602791F9853}|Barberia.IUMVC\\Barberia.IUMVC.csproj|c:\\users\\samuu\\source\\repos\\barberiaapp\\barberia.iumvc\\views\\cliente\\editar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C71E561C-857F-4DAC-8857-9602791F9853}|Barberia.IUMVC\\Barberia.IUMVC.csproj|solutionrelative:barberia.iumvc\\views\\cliente\\editar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C71E561C-857F-4DAC-8857-9602791F9853}|Barberia.IUMVC\\Barberia.IUMVC.csproj|c:\\users\\samuu\\source\\repos\\barberiaapp\\barberia.iumvc\\views\\cliente\\ver.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C71E561C-857F-4DAC-8857-9602791F9853}|Barberia.IUMVC\\Barberia.IUMVC.csproj|solutionrelative:barberia.iumvc\\views\\cliente\\ver.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C71E561C-857F-4DAC-8857-9602791F9853}|Barberia.IUMVC\\Barberia.IUMVC.csproj|c:\\users\\samuu\\source\\repos\\barberiaapp\\barberia.iumvc\\views\\cliente\\crear.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C71E561C-857F-4DAC-8857-9602791F9853}|Barberia.IUMVC\\Barberia.IUMVC.csproj|solutionrelative:barberia.iumvc\\views\\cliente\\crear.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C71E561C-857F-4DAC-8857-9602791F9853}|Barberia.IUMVC\\Barberia.IUMVC.csproj|c:\\users\\samuu\\source\\repos\\barberiaapp\\barberia.iumvc\\views\\cliente\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C71E561C-857F-4DAC-8857-9602791F9853}|Barberia.IUMVC\\Barberia.IUMVC.csproj|solutionrelative:barberia.iumvc\\views\\cliente\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6DD58A36-B9BC-4A6A-B791-8D3D97EBAFCC}|Barberia.Logica\\Barberia.Logica.csproj|C:\\Users\\Samuu\\source\\repos\\BarberiaApp\\barberia.logica\\clientebl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6DD58A36-B9BC-4A6A-B791-8D3D97EBAFCC}|Barberia.Logica\\Barberia.Logica.csproj|solutionrelative:barberia.logica\\clientebl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5C91CBED-F13B-4E07-A64E-21181CF3B773}|Barberia.AccesoDatos\\Barberia.AccesoDatos.csproj|C:\\Users\\Samuu\\source\\repos\\BarberiaApp\\barberia.accesodatos\\clientedal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5C91CBED-F13B-4E07-A64E-21181CF3B773}|Barberia.AccesoDatos\\Barberia.AccesoDatos.csproj|solutionrelative:barberia.accesodatos\\clientedal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B01C1731-B639-426D-BC28-0179E7473899}|Barberia.Entidades\\Barberia.Entidades.csproj|C:\\Users\\Samuu\\source\\repos\\BarberiaApp\\barberia.entidades\\cliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B01C1731-B639-426D-BC28-0179E7473899}|Barberia.Entidades\\Barberia.Entidades.csproj|solutionrelative:barberia.entidades\\cliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C71E561C-857F-4DAC-8857-9602791F9853}|Barberia.IUMVC\\Barberia.IUMVC.csproj|c:\\users\\samuu\\source\\repos\\barberiaapp\\barberia.iumvc\\views\\barbero\\ver.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C71E561C-857F-4DAC-8857-9602791F9853}|Barberia.IUMVC\\Barberia.IUMVC.csproj|solutionrelative:barberia.iumvc\\views\\barbero\\ver.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C71E561C-857F-4DAC-8857-9602791F9853}|Barberia.IUMVC\\Barberia.IUMVC.csproj|c:\\users\\samuu\\source\\repos\\barberiaapp\\barberia.iumvc\\views\\usuario\\ver.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C71E561C-857F-4DAC-8857-9602791F9853}|Barberia.IUMVC\\Barberia.IUMVC.csproj|solutionrelative:barberia.iumvc\\views\\usuario\\ver.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C71E561C-857F-4DAC-8857-9602791F9853}|Barberia.IUMVC\\Barberia.IUMVC.csproj|c:\\users\\samuu\\source\\repos\\barberiaapp\\barberia.iumvc\\views\\usuario\\crear.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C71E561C-857F-4DAC-8857-9602791F9853}|Barberia.IUMVC\\Barberia.IUMVC.csproj|solutionrelative:barberia.iumvc\\views\\usuario\\crear.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C71E561C-857F-4DAC-8857-9602791F9853}|Barberia.IUMVC\\Barberia.IUMVC.csproj|c:\\users\\samuu\\source\\repos\\barberiaapp\\barberia.iumvc\\views\\usuario\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C71E561C-857F-4DAC-8857-9602791F9853}|Barberia.IUMVC\\Barberia.IUMVC.csproj|solutionrelative:barberia.iumvc\\views\\usuario\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6DD58A36-B9BC-4A6A-B791-8D3D97EBAFCC}|Barberia.Logica\\Barberia.Logica.csproj|C:\\Users\\Samuu\\source\\repos\\BarberiaApp\\barberia.logica\\barberobl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6DD58A36-B9BC-4A6A-B791-8D3D97EBAFCC}|Barberia.Logica\\Barberia.Logica.csproj|solutionrelative:barberia.logica\\barberobl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5C91CBED-F13B-4E07-A64E-21181CF3B773}|Barberia.AccesoDatos\\Barberia.AccesoDatos.csproj|C:\\Users\\Samuu\\source\\repos\\BarberiaApp\\barberia.accesodatos\\barberodal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5C91CBED-F13B-4E07-A64E-21181CF3B773}|Barberia.AccesoDatos\\Barberia.AccesoDatos.csproj|solutionrelative:barberia.accesodatos\\barberodal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B01C1731-B639-426D-BC28-0179E7473899}|Barberia.Entidades\\Barberia.Entidades.csproj|C:\\Users\\Samuu\\source\\repos\\BarberiaApp\\barberia.entidades\\barbero.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B01C1731-B639-426D-BC28-0179E7473899}|Barberia.Entidades\\Barberia.Entidades.csproj|solutionrelative:barberia.entidades\\barbero.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{5C91CBED-F13B-4E07-A64E-21181CF3B773}|Barberia.AccesoDatos\\Barberia.AccesoDatos.csproj|C:\\Users\\Samuu\\source\\repos\\BarberiaApp\\barberia.accesodatos\\conexionbd.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -74,163 +186,180 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "LoginController.cs",
-              "DocumentMoniker": "C:\\Users\\Samuu\\source\\repos\\BarberiaApp\\Barberia.IUMVC\\Controllers\\LoginController.cs",
-              "RelativeDocumentMoniker": "Barberia.IUMVC\\Controllers\\LoginController.cs",
-              "ToolTip": "C:\\Users\\Samuu\\source\\repos\\BarberiaApp\\Barberia.IUMVC\\Controllers\\LoginController.cs",
-              "RelativeToolTip": "Barberia.IUMVC\\Controllers\\LoginController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACcAAAABAAAAAAAAAA==",
+              "DocumentIndex": 5,
+              "Title": "Cita.cs",
+              "DocumentMoniker": "C:\\Users\\Samuu\\source\\repos\\BarberiaApp\\Barberia.Entidades\\Cita.cs",
+              "RelativeDocumentMoniker": "Barberia.Entidades\\Cita.cs",
+              "ToolTip": "C:\\Users\\Samuu\\source\\repos\\BarberiaApp\\Barberia.Entidades\\Cita.cs",
+              "RelativeToolTip": "Barberia.Entidades\\Cita.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-16T05:54:50.151Z",
+              "WhenOpened": "2026-03-23T03:15:46.142Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "UsuarioController.cs",
-              "DocumentMoniker": "C:\\Users\\Samuu\\source\\repos\\BarberiaApp\\Barberia.IUMVC\\Controllers\\UsuarioController.cs",
-              "RelativeDocumentMoniker": "Barberia.IUMVC\\Controllers\\UsuarioController.cs",
-              "ToolTip": "C:\\Users\\Samuu\\source\\repos\\BarberiaApp\\Barberia.IUMVC\\Controllers\\UsuarioController.cs",
-              "RelativeToolTip": "Barberia.IUMVC\\Controllers\\UsuarioController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "Crear.cshtml",
+              "DocumentMoniker": "C:\\Users\\Samuu\\source\\repos\\BarberiaApp\\Barberia.IUMVC\\Views\\Citas\\Crear.cshtml",
+              "RelativeDocumentMoniker": "Barberia.IUMVC\\Views\\Citas\\Crear.cshtml",
+              "ToolTip": "C:\\Users\\Samuu\\source\\repos\\BarberiaApp\\Barberia.IUMVC\\Views\\Citas\\Crear.cshtml",
+              "RelativeToolTip": "Barberia.IUMVC\\Views\\Citas\\Crear.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB8AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-03-22T23:44:46.301Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "CitaBL.cs",
+              "DocumentMoniker": "C:\\Users\\Samuu\\source\\repos\\BarberiaApp\\Barberia.Logica\\CitaBL.cs",
+              "RelativeDocumentMoniker": "Barberia.Logica\\CitaBL.cs",
+              "ToolTip": "C:\\Users\\Samuu\\source\\repos\\BarberiaApp\\Barberia.Logica\\CitaBL.cs",
+              "RelativeToolTip": "Barberia.Logica\\CitaBL.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEwAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-16T07:33:33.926Z",
+              "WhenOpened": "2026-03-22T23:06:30.472Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 6,
               "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\Samuu\\source\\repos\\BarberiaApp\\Barberia.IUMVC\\Views\\Home\\Index.cshtml",
-              "RelativeDocumentMoniker": "Barberia.IUMVC\\Views\\Home\\Index.cshtml",
-              "ToolTip": "C:\\Users\\Samuu\\source\\repos\\BarberiaApp\\Barberia.IUMVC\\Views\\Home\\Index.cshtml",
-              "RelativeToolTip": "Barberia.IUMVC\\Views\\Home\\Index.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "DocumentMoniker": "C:\\Users\\Samuu\\source\\repos\\BarberiaApp\\Barberia.IUMVC\\Views\\Perfil\\Index.cshtml",
+              "RelativeDocumentMoniker": "Barberia.IUMVC\\Views\\Perfil\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Samuu\\source\\repos\\BarberiaApp\\Barberia.IUMVC\\Views\\Perfil\\Index.cshtml",
+              "RelativeToolTip": "Barberia.IUMVC\\Views\\Perfil\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFwAAAAGAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-03-16T06:30:23.266Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "HomeController.cs",
-              "DocumentMoniker": "C:\\Users\\Samuu\\source\\repos\\BarberiaApp\\Barberia.IUMVC\\Controllers\\HomeController.cs",
-              "RelativeDocumentMoniker": "Barberia.IUMVC\\Controllers\\HomeController.cs",
-              "ToolTip": "C:\\Users\\Samuu\\source\\repos\\BarberiaApp\\Barberia.IUMVC\\Controllers\\HomeController.cs",
-              "RelativeToolTip": "Barberia.IUMVC\\Controllers\\HomeController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACYAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-16T06:28:07.515Z",
+              "WhenOpened": "2026-03-23T00:56:18.71Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 7,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\Samuu\\source\\repos\\BarberiaApp\\Barberia.IUMVC\\Program.cs",
-              "RelativeDocumentMoniker": "Barberia.IUMVC\\Program.cs",
-              "ToolTip": "C:\\Users\\Samuu\\source\\repos\\BarberiaApp\\Barberia.IUMVC\\Program.cs",
-              "RelativeToolTip": "Barberia.IUMVC\\Program.cs",
-              "ViewState": "AgIAAAEAAAAAAAAAAAAAABwAAAAKAAAAAAAAAA==",
+              "Title": "PerfilController.cs",
+              "DocumentMoniker": "C:\\Users\\Samuu\\source\\repos\\BarberiaApp\\Barberia.IUMVC\\Controllers\\PerfilController.cs",
+              "RelativeDocumentMoniker": "Barberia.IUMVC\\Controllers\\PerfilController.cs",
+              "ToolTip": "C:\\Users\\Samuu\\source\\repos\\BarberiaApp\\Barberia.IUMVC\\Controllers\\PerfilController.cs",
+              "RelativeToolTip": "Barberia.IUMVC\\Controllers\\PerfilController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-16T07:06:36.003Z",
+              "WhenOpened": "2026-03-22T23:02:55.637Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "_Layout.cshtml",
-              "DocumentMoniker": "C:\\Users\\Samuu\\source\\repos\\BarberiaApp\\Barberia.IUMVC\\Views\\Shared\\_Layout.cshtml",
-              "RelativeDocumentMoniker": "Barberia.IUMVC\\Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "C:\\Users\\Samuu\\source\\repos\\BarberiaApp\\Barberia.IUMVC\\Views\\Shared\\_Layout.cshtml",
-              "RelativeToolTip": "Barberia.IUMVC\\Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AgIAAB8AAAAAAAAAAAAqwDUAAAAZAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-03-16T07:12:33.258Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\Samuu\\source\\repos\\BarberiaApp\\Barberia.IUMVC\\Views\\Usuario\\Index.cshtml",
-              "RelativeDocumentMoniker": "Barberia.IUMVC\\Views\\Usuario\\Index.cshtml",
-              "ToolTip": "C:\\Users\\Samuu\\source\\repos\\BarberiaApp\\Barberia.IUMVC\\Views\\Usuario\\Index.cshtml",
-              "RelativeToolTip": "Barberia.IUMVC\\Views\\Usuario\\Index.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAMAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-03-16T07:48:55.501Z",
+              "DocumentIndex": 2,
+              "Title": "CitasController.cs",
+              "DocumentMoniker": "C:\\Users\\Samuu\\source\\repos\\BarberiaApp\\Barberia.IUMVC\\Controllers\\CitasController.cs",
+              "RelativeDocumentMoniker": "Barberia.IUMVC\\Controllers\\CitasController.cs",
+              "ToolTip": "C:\\Users\\Samuu\\source\\repos\\BarberiaApp\\Barberia.IUMVC\\Controllers\\CitasController.cs",
+              "RelativeToolTip": "Barberia.IUMVC\\Controllers\\CitasController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAGwAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-22T23:10:46.495Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "UsuarioBL.cs",
-              "DocumentMoniker": "C:\\Users\\Samuu\\source\\repos\\BarberiaApp\\Barberia.Logica\\UsuarioBL.cs",
-              "RelativeDocumentMoniker": "Barberia.Logica\\UsuarioBL.cs",
-              "ToolTip": "C:\\Users\\Samuu\\source\\repos\\BarberiaApp\\Barberia.Logica\\UsuarioBL.cs",
-              "RelativeToolTip": "Barberia.Logica\\UsuarioBL.cs",
-              "ViewState": "AgIAACkAAAAAAAAAAAAIwC0AAAAJAAAAAAAAAA==",
+              "Title": "CitaDAL.cs",
+              "DocumentMoniker": "C:\\Users\\Samuu\\source\\repos\\BarberiaApp\\Barberia.AccesoDatos\\CitaDAL.cs",
+              "RelativeDocumentMoniker": "Barberia.AccesoDatos\\CitaDAL.cs",
+              "ToolTip": "C:\\Users\\Samuu\\source\\repos\\BarberiaApp\\Barberia.AccesoDatos\\CitaDAL.cs",
+              "RelativeToolTip": "Barberia.AccesoDatos\\CitaDAL.cs",
+              "ViewState": "AgIAAIIAAAAAAAAAAAAcwJEAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-16T06:16:57.461Z",
+              "WhenOpened": "2026-03-22T23:18:32.248Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Samuu\\source\\repos\\BarberiaApp\\Barberia.IUMVC\\Views\\Citas\\Index.cshtml",
+              "RelativeDocumentMoniker": "Barberia.IUMVC\\Views\\Citas\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Samuu\\source\\repos\\BarberiaApp\\Barberia.IUMVC\\Views\\Citas\\Index.cshtml",
+              "RelativeToolTip": "Barberia.IUMVC\\Views\\Citas\\Index.cshtml",
+              "ViewState": "AgIAACcAAAAAAAAAAAAuwDUAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-03-22T23:42:23.158Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "HorarioDAL.cs",
+              "DocumentMoniker": "C:\\Users\\Samuu\\source\\repos\\BarberiaApp\\Barberia.AccesoDatos\\HorarioDAL.cs",
+              "RelativeDocumentMoniker": "Barberia.AccesoDatos\\HorarioDAL.cs",
+              "ToolTip": "C:\\Users\\Samuu\\source\\repos\\BarberiaApp\\Barberia.AccesoDatos\\HorarioDAL.cs",
+              "RelativeToolTip": "Barberia.AccesoDatos\\HorarioDAL.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAADwvykAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-23T00:37:31.459Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\Samuu\\source\\repos\\BarberiaApp\\Barberia.IUMVC\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Barberia.IUMVC\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\Samuu\\source\\repos\\BarberiaApp\\Barberia.IUMVC\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Barberia.IUMVC\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAACAAAAAAAAAAAAAuwDYAAABnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-03-22T06:27:13.712Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "LoginController.cs",
+              "DocumentMoniker": "C:\\Users\\Samuu\\source\\repos\\BarberiaApp\\Barberia.IUMVC\\Controllers\\LoginController.cs",
+              "RelativeDocumentMoniker": "Barberia.IUMVC\\Controllers\\LoginController.cs",
+              "ToolTip": "C:\\Users\\Samuu\\source\\repos\\BarberiaApp\\Barberia.IUMVC\\Controllers\\LoginController.cs",
+              "RelativeToolTip": "Barberia.IUMVC\\Controllers\\LoginController.cs",
+              "ViewState": "AgIAAF8AAAAAAAAAAAAuwA4AAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-16T05:54:50.151Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 11,
-              "Title": "Crear.cshtml",
-              "DocumentMoniker": "C:\\Users\\Samuu\\source\\repos\\BarberiaApp\\Barberia.IUMVC\\Views\\Usuario\\Crear.cshtml",
-              "RelativeDocumentMoniker": "Barberia.IUMVC\\Views\\Usuario\\Crear.cshtml",
-              "ToolTip": "C:\\Users\\Samuu\\source\\repos\\BarberiaApp\\Barberia.IUMVC\\Views\\Usuario\\Crear.cshtml",
-              "RelativeToolTip": "Barberia.IUMVC\\Views\\Usuario\\Crear.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACkAAAAHAAAAAAAAAA==",
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Samuu\\source\\repos\\BarberiaApp\\Barberia.IUMVC\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "Barberia.IUMVC\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Samuu\\source\\repos\\BarberiaApp\\Barberia.IUMVC\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "Barberia.IUMVC\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFQAAAADAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-03-16T07:59:55.924Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "UsuarioDAL.cs",
-              "DocumentMoniker": "C:\\Users\\Samuu\\source\\repos\\BarberiaApp\\Barberia.AccesoDatos\\UsuarioDAL.cs",
-              "RelativeDocumentMoniker": "Barberia.AccesoDatos\\UsuarioDAL.cs",
-              "ToolTip": "C:\\Users\\Samuu\\source\\repos\\BarberiaApp\\Barberia.AccesoDatos\\UsuarioDAL.cs",
-              "RelativeToolTip": "Barberia.AccesoDatos\\UsuarioDAL.cs",
-              "ViewState": "AgIAAFIAAAAAAAAAAAAcwGsAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-16T06:22:00.265Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "Ver.cshtml",
-              "DocumentMoniker": "C:\\Users\\Samuu\\source\\repos\\BarberiaApp\\Barberia.IUMVC\\Views\\Usuario\\Ver.cshtml",
-              "RelativeDocumentMoniker": "Barberia.IUMVC\\Views\\Usuario\\Ver.cshtml",
-              "ToolTip": "C:\\Users\\Samuu\\source\\repos\\BarberiaApp\\Barberia.IUMVC\\Views\\Usuario\\Ver.cshtml",
-              "RelativeToolTip": "Barberia.IUMVC\\Views\\Usuario\\Ver.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAEAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-03-16T08:01:11.367Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "Editar.cshtml",
-              "DocumentMoniker": "C:\\Users\\Samuu\\source\\repos\\BarberiaApp\\Barberia.IUMVC\\Views\\Usuario\\Editar.cshtml",
-              "RelativeDocumentMoniker": "Barberia.IUMVC\\Views\\Usuario\\Editar.cshtml",
-              "ToolTip": "C:\\Users\\Samuu\\source\\repos\\BarberiaApp\\Barberia.IUMVC\\Views\\Usuario\\Editar.cshtml",
-              "RelativeToolTip": "Barberia.IUMVC\\Views\\Usuario\\Editar.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACsAAAAHAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-03-16T08:30:15.655Z"
+              "WhenOpened": "2026-03-22T06:27:02.442Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 12,
+              "Title": "ClienteController.cs",
+              "DocumentMoniker": "C:\\Users\\Samuu\\source\\repos\\BarberiaApp\\Barberia.IUMVC\\Controllers\\ClienteController.cs",
+              "RelativeDocumentMoniker": "Barberia.IUMVC\\Controllers\\ClienteController.cs",
+              "ToolTip": "C:\\Users\\Samuu\\source\\repos\\BarberiaApp\\Barberia.IUMVC\\Controllers\\ClienteController.cs",
+              "RelativeToolTip": "Barberia.IUMVC\\Controllers\\ClienteController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADoAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-21T06:27:21.311Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
               "Title": "Barberia.IUMVC.csproj",
               "DocumentMoniker": "C:\\Users\\Samuu\\source\\repos\\BarberiaApp\\Barberia.IUMVC\\Barberia.IUMVC.csproj",
               "RelativeDocumentMoniker": "Barberia.IUMVC\\Barberia.IUMVC.csproj",
@@ -238,23 +367,361 @@
               "RelativeToolTip": "Barberia.IUMVC\\Barberia.IUMVC.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2026-03-16T06:52:34.956Z"
+              "WhenOpened": "2026-03-16T06:52:34.956Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 15,
+              "Title": "UsuarioController.cs",
+              "DocumentMoniker": "C:\\Users\\Samuu\\source\\repos\\BarberiaApp\\Barberia.IUMVC\\Controllers\\UsuarioController.cs",
+              "RelativeDocumentMoniker": "Barberia.IUMVC\\Controllers\\UsuarioController.cs",
+              "ToolTip": "C:\\Users\\Samuu\\source\\repos\\BarberiaApp\\Barberia.IUMVC\\Controllers\\UsuarioController.cs",
+              "RelativeToolTip": "Barberia.IUMVC\\Controllers\\UsuarioController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEoAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-16T07:33:33.926Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Editar.cshtml",
+              "DocumentMoniker": "C:\\Users\\Samuu\\source\\repos\\BarberiaApp\\Barberia.IUMVC\\Views\\Barbero\\Editar.cshtml",
+              "RelativeDocumentMoniker": "Barberia.IUMVC\\Views\\Barbero\\Editar.cshtml",
+              "ToolTip": "C:\\Users\\Samuu\\source\\repos\\BarberiaApp\\Barberia.IUMVC\\Views\\Barbero\\Editar.cshtml",
+              "RelativeToolTip": "Barberia.IUMVC\\Views\\Barbero\\Editar.cshtml",
+              "ViewState": "AgIAACwAAAAAAAAAAAAAwEUAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-03-21T05:59:54.369Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "BarberoController.cs",
+              "DocumentMoniker": "C:\\Users\\Samuu\\source\\repos\\BarberiaApp\\Barberia.IUMVC\\Controllers\\BarberoController.cs",
+              "RelativeDocumentMoniker": "Barberia.IUMVC\\Controllers\\BarberoController.cs",
+              "ToolTip": "C:\\Users\\Samuu\\source\\repos\\BarberiaApp\\Barberia.IUMVC\\Controllers\\BarberoController.cs",
+              "RelativeToolTip": "Barberia.IUMVC\\Controllers\\BarberoController.cs",
+              "ViewState": "AgIAACIAAAAAAAAAAAAmwEEAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-21T05:42:06.555Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\Samuu\\source\\repos\\BarberiaApp\\Barberia.IUMVC\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "Barberia.IUMVC\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\Samuu\\source\\repos\\BarberiaApp\\Barberia.IUMVC\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "Barberia.IUMVC\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-16T06:28:07.515Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "AuthorizeRoleAttribute.cs",
+              "DocumentMoniker": "C:\\Users\\Samuu\\source\\repos\\BarberiaApp\\Barberia.IUMVC\\Filters\\AuthorizeRoleAttribute.cs",
+              "RelativeDocumentMoniker": "Barberia.IUMVC\\Filters\\AuthorizeRoleAttribute.cs",
+              "ToolTip": "C:\\Users\\Samuu\\source\\repos\\BarberiaApp\\Barberia.IUMVC\\Filters\\AuthorizeRoleAttribute.cs",
+              "RelativeToolTip": "Barberia.IUMVC\\Filters\\AuthorizeRoleAttribute.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-22T22:50:22.044Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "Crear.cshtml",
+              "DocumentMoniker": "C:\\Users\\Samuu\\source\\repos\\BarberiaApp\\Barberia.IUMVC\\Views\\Barbero\\Crear.cshtml",
+              "RelativeDocumentMoniker": "Barberia.IUMVC\\Views\\Barbero\\Crear.cshtml",
+              "ToolTip": "C:\\Users\\Samuu\\source\\repos\\BarberiaApp\\Barberia.IUMVC\\Views\\Barbero\\Crear.cshtml",
+              "RelativeToolTip": "Barberia.IUMVC\\Views\\Barbero\\Crear.cshtml",
+              "ViewState": "AgIAADMAAAAAAAAAAAAAAEsAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-03-21T05:46:34.176Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "UsuarioDAL.cs",
+              "DocumentMoniker": "C:\\Users\\Samuu\\source\\repos\\BarberiaApp\\Barberia.AccesoDatos\\UsuarioDAL.cs",
+              "RelativeDocumentMoniker": "Barberia.AccesoDatos\\UsuarioDAL.cs",
+              "ToolTip": "C:\\Users\\Samuu\\source\\repos\\BarberiaApp\\Barberia.AccesoDatos\\UsuarioDAL.cs",
+              "RelativeToolTip": "Barberia.AccesoDatos\\UsuarioDAL.cs",
+              "ViewState": "AgIAACwAAAAAAAAAAAAAADgAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-16T06:22:00.265Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Reset.cshtml",
+              "DocumentMoniker": "C:\\Users\\Samuu\\source\\repos\\BarberiaApp\\Barberia.IUMVC\\Views\\Login\\Reset.cshtml",
+              "RelativeDocumentMoniker": "Barberia.IUMVC\\Views\\Login\\Reset.cshtml",
+              "ToolTip": "C:\\Users\\Samuu\\source\\repos\\BarberiaApp\\Barberia.IUMVC\\Views\\Login\\Reset.cshtml",
+              "RelativeToolTip": "Barberia.IUMVC\\Views\\Login\\Reset.cshtml",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAAAEMAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-03-22T03:49:25.853Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "Recuperar.cshtml",
+              "DocumentMoniker": "C:\\Users\\Samuu\\source\\repos\\BarberiaApp\\Barberia.IUMVC\\Views\\Login\\Recuperar.cshtml",
+              "RelativeDocumentMoniker": "Barberia.IUMVC\\Views\\Login\\Recuperar.cshtml",
+              "ToolTip": "C:\\Users\\Samuu\\source\\repos\\BarberiaApp\\Barberia.IUMVC\\Views\\Login\\Recuperar.cshtml",
+              "RelativeToolTip": "Barberia.IUMVC\\Views\\Login\\Recuperar.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-03-21T23:45:35.976Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\Samuu\\source\\repos\\BarberiaApp\\Barberia.IUMVC\\Views\\Login\\Index.cshtml",
               "RelativeDocumentMoniker": "Barberia.IUMVC\\Views\\Login\\Index.cshtml",
               "ToolTip": "C:\\Users\\Samuu\\source\\repos\\BarberiaApp\\Barberia.IUMVC\\Views\\Login\\Index.cshtml",
               "RelativeToolTip": "Barberia.IUMVC\\Views\\Login\\Index.cshtml",
-              "ViewState": "AgIAAAEAAAAAAAAAAAAIwBsAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAkAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-03-16T05:59:41.085Z"
+              "WhenOpened": "2026-03-16T05:59:41.085Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 25,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Samuu\\source\\repos\\BarberiaApp\\Barberia.IUMVC\\Program.cs",
+              "RelativeDocumentMoniker": "Barberia.IUMVC\\Program.cs",
+              "ToolTip": "C:\\Users\\Samuu\\source\\repos\\BarberiaApp\\Barberia.IUMVC\\Program.cs",
+              "RelativeToolTip": "Barberia.IUMVC\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-16T07:06:36.003Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Samuu\\source\\repos\\BarberiaApp\\Barberia.IUMVC\\Views\\Barbero\\Index.cshtml",
+              "RelativeDocumentMoniker": "Barberia.IUMVC\\Views\\Barbero\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Samuu\\source\\repos\\BarberiaApp\\Barberia.IUMVC\\Views\\Barbero\\Index.cshtml",
+              "RelativeToolTip": "Barberia.IUMVC\\Views\\Barbero\\Index.cshtml",
+              "ViewState": "AgIAADAAAAAAAAAAAAAAAHMAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-03-21T04:54:58.828Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "UsuarioBL.cs",
+              "DocumentMoniker": "C:\\Users\\Samuu\\source\\repos\\BarberiaApp\\Barberia.Logica\\UsuarioBL.cs",
+              "RelativeDocumentMoniker": "Barberia.Logica\\UsuarioBL.cs",
+              "ToolTip": "C:\\Users\\Samuu\\source\\repos\\BarberiaApp\\Barberia.Logica\\UsuarioBL.cs",
+              "RelativeToolTip": "Barberia.Logica\\UsuarioBL.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-16T06:16:57.461Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "Editar.cshtml",
+              "DocumentMoniker": "C:\\Users\\Samuu\\source\\repos\\BarberiaApp\\Barberia.IUMVC\\Views\\Usuario\\Editar.cshtml",
+              "RelativeDocumentMoniker": "Barberia.IUMVC\\Views\\Usuario\\Editar.cshtml",
+              "ToolTip": "C:\\Users\\Samuu\\source\\repos\\BarberiaApp\\Barberia.IUMVC\\Views\\Usuario\\Editar.cshtml",
+              "RelativeToolTip": "Barberia.IUMVC\\Views\\Usuario\\Editar.cshtml",
+              "ViewState": "AgIAACUAAAAAAAAAAAAAwEQAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-03-16T08:30:15.655Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "Ver.cshtml",
+              "DocumentMoniker": "C:\\Users\\Samuu\\source\\repos\\BarberiaApp\\Barberia.IUMVC\\Views\\Cliente\\Ver.cshtml",
+              "RelativeDocumentMoniker": "Barberia.IUMVC\\Views\\Cliente\\Ver.cshtml",
+              "ToolTip": "C:\\Users\\Samuu\\source\\repos\\BarberiaApp\\Barberia.IUMVC\\Views\\Cliente\\Ver.cshtml",
+              "RelativeToolTip": "Barberia.IUMVC\\Views\\Cliente\\Ver.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAABFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-03-21T06:26:53.539Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "Crear.cshtml",
+              "DocumentMoniker": "C:\\Users\\Samuu\\source\\repos\\BarberiaApp\\Barberia.IUMVC\\Views\\Cliente\\Crear.cshtml",
+              "RelativeDocumentMoniker": "Barberia.IUMVC\\Views\\Cliente\\Crear.cshtml",
+              "ToolTip": "C:\\Users\\Samuu\\source\\repos\\BarberiaApp\\Barberia.IUMVC\\Views\\Cliente\\Crear.cshtml",
+              "RelativeToolTip": "Barberia.IUMVC\\Views\\Cliente\\Crear.cshtml",
+              "ViewState": "AgIAAC4AAAAAAAAAAAAAwEcAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-03-21T06:25:24.737Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "Editar.cshtml",
+              "DocumentMoniker": "C:\\Users\\Samuu\\source\\repos\\BarberiaApp\\Barberia.IUMVC\\Views\\Cliente\\Editar.cshtml",
+              "RelativeDocumentMoniker": "Barberia.IUMVC\\Views\\Cliente\\Editar.cshtml",
+              "ToolTip": "C:\\Users\\Samuu\\source\\repos\\BarberiaApp\\Barberia.IUMVC\\Views\\Cliente\\Editar.cshtml",
+              "RelativeToolTip": "Barberia.IUMVC\\Views\\Cliente\\Editar.cshtml",
+              "ViewState": "AgIAADIAAAAAAAAAAAAAwEsAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-03-21T06:26:08.808Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Samuu\\source\\repos\\BarberiaApp\\Barberia.IUMVC\\Views\\Cliente\\Index.cshtml",
+              "RelativeDocumentMoniker": "Barberia.IUMVC\\Views\\Cliente\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Samuu\\source\\repos\\BarberiaApp\\Barberia.IUMVC\\Views\\Cliente\\Index.cshtml",
+              "RelativeToolTip": "Barberia.IUMVC\\Views\\Cliente\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADoAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-03-21T06:24:30.091Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "ClienteBL.cs",
+              "DocumentMoniker": "C:\\Users\\Samuu\\source\\repos\\BarberiaApp\\Barberia.Logica\\ClienteBL.cs",
+              "RelativeDocumentMoniker": "Barberia.Logica\\ClienteBL.cs",
+              "ToolTip": "C:\\Users\\Samuu\\source\\repos\\BarberiaApp\\Barberia.Logica\\ClienteBL.cs",
+              "RelativeToolTip": "Barberia.Logica\\ClienteBL.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAD8AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-21T06:31:51.371Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "ClienteDAL.cs",
+              "DocumentMoniker": "C:\\Users\\Samuu\\source\\repos\\BarberiaApp\\Barberia.AccesoDatos\\ClienteDAL.cs",
+              "RelativeDocumentMoniker": "Barberia.AccesoDatos\\ClienteDAL.cs",
+              "ToolTip": "C:\\Users\\Samuu\\source\\repos\\BarberiaApp\\Barberia.AccesoDatos\\ClienteDAL.cs",
+              "RelativeToolTip": "Barberia.AccesoDatos\\ClienteDAL.cs",
+              "ViewState": "AgIAAHQAAAAAAAAAAAAIwHYAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-21T06:30:19.305Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "Cliente.cs",
+              "DocumentMoniker": "C:\\Users\\Samuu\\source\\repos\\BarberiaApp\\Barberia.Entidades\\Cliente.cs",
+              "RelativeDocumentMoniker": "Barberia.Entidades\\Cliente.cs",
+              "ToolTip": "C:\\Users\\Samuu\\source\\repos\\BarberiaApp\\Barberia.Entidades\\Cliente.cs",
+              "RelativeToolTip": "Barberia.Entidades\\Cliente.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-21T06:31:13.588Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "Ver.cshtml",
+              "DocumentMoniker": "C:\\Users\\Samuu\\source\\repos\\BarberiaApp\\Barberia.IUMVC\\Views\\Usuario\\Ver.cshtml",
+              "RelativeDocumentMoniker": "Barberia.IUMVC\\Views\\Usuario\\Ver.cshtml",
+              "ToolTip": "C:\\Users\\Samuu\\source\\repos\\BarberiaApp\\Barberia.IUMVC\\Views\\Usuario\\Ver.cshtml",
+              "RelativeToolTip": "Barberia.IUMVC\\Views\\Usuario\\Ver.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-03-16T08:01:11.367Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "Ver.cshtml",
+              "DocumentMoniker": "C:\\Users\\Samuu\\source\\repos\\BarberiaApp\\Barberia.IUMVC\\Views\\Barbero\\Ver.cshtml",
+              "RelativeDocumentMoniker": "Barberia.IUMVC\\Views\\Barbero\\Ver.cshtml",
+              "ToolTip": "C:\\Users\\Samuu\\source\\repos\\BarberiaApp\\Barberia.IUMVC\\Views\\Barbero\\Ver.cshtml",
+              "RelativeToolTip": "Barberia.IUMVC\\Views\\Barbero\\Ver.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-03-21T06:02:01.629Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "Crear.cshtml",
+              "DocumentMoniker": "C:\\Users\\Samuu\\source\\repos\\BarberiaApp\\Barberia.IUMVC\\Views\\Usuario\\Crear.cshtml",
+              "RelativeDocumentMoniker": "Barberia.IUMVC\\Views\\Usuario\\Crear.cshtml",
+              "ToolTip": "C:\\Users\\Samuu\\source\\repos\\BarberiaApp\\Barberia.IUMVC\\Views\\Usuario\\Crear.cshtml",
+              "RelativeToolTip": "Barberia.IUMVC\\Views\\Usuario\\Crear.cshtml",
+              "ViewState": "AgIAACoAAAAAAAAAAAAAwEIAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-03-16T07:59:55.924Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "BarberoDAL.cs",
+              "DocumentMoniker": "C:\\Users\\Samuu\\source\\repos\\BarberiaApp\\Barberia.AccesoDatos\\BarberoDAL.cs",
+              "RelativeDocumentMoniker": "Barberia.AccesoDatos\\BarberoDAL.cs",
+              "ToolTip": "C:\\Users\\Samuu\\source\\repos\\BarberiaApp\\Barberia.AccesoDatos\\BarberoDAL.cs",
+              "RelativeToolTip": "Barberia.AccesoDatos\\BarberoDAL.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAJEAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-21T05:29:16.214Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "BarberoBL.cs",
+              "DocumentMoniker": "C:\\Users\\Samuu\\source\\repos\\BarberiaApp\\Barberia.Logica\\BarberoBL.cs",
+              "RelativeDocumentMoniker": "Barberia.Logica\\BarberoBL.cs",
+              "ToolTip": "C:\\Users\\Samuu\\source\\repos\\BarberiaApp\\Barberia.Logica\\BarberoBL.cs",
+              "RelativeToolTip": "Barberia.Logica\\BarberoBL.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAD8AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-21T05:29:56.306Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Samuu\\source\\repos\\BarberiaApp\\Barberia.IUMVC\\Views\\Usuario\\Index.cshtml",
+              "RelativeDocumentMoniker": "Barberia.IUMVC\\Views\\Usuario\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Samuu\\source\\repos\\BarberiaApp\\Barberia.IUMVC\\Views\\Usuario\\Index.cshtml",
+              "RelativeToolTip": "Barberia.IUMVC\\Views\\Usuario\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACAAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-03-16T07:48:55.501Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "Barbero.cs",
+              "DocumentMoniker": "C:\\Users\\Samuu\\source\\repos\\BarberiaApp\\Barberia.Entidades\\Barbero.cs",
+              "RelativeDocumentMoniker": "Barberia.Entidades\\Barbero.cs",
+              "ToolTip": "C:\\Users\\Samuu\\source\\repos\\BarberiaApp\\Barberia.Entidades\\Barbero.cs",
+              "RelativeToolTip": "Barberia.Entidades\\Barbero.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-21T05:28:22.549Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
               "Title": "ConexionBD.cs",
               "DocumentMoniker": "C:\\Users\\Samuu\\source\\repos\\BarberiaApp\\Barberia.AccesoDatos\\ConexionBD.cs",
               "RelativeDocumentMoniker": "Barberia.AccesoDatos\\ConexionBD.cs",
@@ -266,7 +733,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 43,
               "Title": "HorarioBL.cs",
               "DocumentMoniker": "C:\\Users\\Samuu\\source\\repos\\BarberiaApp\\Barberia.Logica\\HorarioBL.cs",
               "RelativeDocumentMoniker": "Barberia.Logica\\HorarioBL.cs",

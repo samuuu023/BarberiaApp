@@ -17,35 +17,46 @@ namespace Barberia.Logica
             dal.Insertar(u);
         }
 
-        // LOGIN
-        public Usuario Login(string correo, string password)
+        public int CrearUsuarioYRetornarId(Usuario u)
         {
-            List<Usuario> lista = dal.ObtenerTodos();
-
-            foreach (Usuario u in lista)
-            {
-                if (u.Correo == correo && u.Password == password)
-                {
-                    return u;
-                }
-            }
-
-            return null;
+            return dal.InsertarYRetornarId(u);
         }
 
-        // LISTAR USUARIOS
+        public Usuario Login(string correo, string password)
+        {
+            return dal.Login(correo, password);
+        }
+
+        public Usuario ObtenerPorCorreo(string correo)
+        {
+            return dal.ObtenerPorCorreo(correo);
+        }
+
+        public void GuardarToken(int id, string token, DateTime expira)
+        {
+            dal.GuardarToken(id, token, expira);
+        }
+
+        public Usuario ObtenerPorToken(string token)
+        {
+            return dal.ObtenerPorToken(token);
+        }
+
+        public void CambiarPassword(int id, string nuevaPass)
+        {
+            dal.CambiarPassword(id, nuevaPass);
+        }
+
         public List<Usuario> ObtenerTodos()
         {
             return dal.ObtenerTodos();
         }
 
-        // ELIMINAR USUARIO
         public void Eliminar(int id)
         {
             dal.Eliminar(id);
         }
 
-        // EDITAR USUARIO
         public void Editar(Usuario u)
         {
             dal.Editar(u);

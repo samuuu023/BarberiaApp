@@ -1,65 +1,111 @@
 ﻿@model List<Barberia.Entidades.Usuario>
 
-<h2>Usuarios</h2>
+<div class="container mt-4">
 
-<div class="row mb-3">
+    <h2 class="mb-4 text-primary">Gestión de Usuarios</h2>
 
-    <div class="col-4">
-        <a asp-action="Crear" class="btn btn-primary">
-            Nuevo Usuario
-        </a>
+    <div class="row mb-3">
+
+        <div class="col-md-4">
+            <a asp-action="Crear" class="btn btn-success">
+                + Nuevo Usuario
+            </a>
+        </div>
+
+        <div class="col-md-6">
+            <form method="get" asp-action="Index" class="d-flex">
+
+                <input type="text"
+                       name="buscar"
+                       value="@Context.Request.Query["buscar"]"
+                       class="form-control me-2"
+                       placeholder="Buscar usuario..." />
+
+                <button type="submit" class="btn btn-primary me-2">
+                    🔍 Buscar
+                </button>
+
+                <a href="/Usuario" class="btn btn-secondary">
+                    Limpiar
+                </a>
+
+            </form>
+        </div>
     </div>
 
-    <div class="col-4">
-        <form method="get" asp-action="Index">
-            <input type="text" name="buscar" class="form-control" placeholder="Buscar usuario..." />
-        </form>
-    </div>
+    <table class="table table-hover table-striped shadow">
+
+        <thead class="table-dark">
+            <tr>
+                <th>Nombre</th>
+                <th>Apellido</th>
+                <th>Correo</th>
+                <th>Rol</th>
+                <th class="text-center">Acciones</th>
+            </tr>
+        </thead>
+
+        <tbody>
+
+            @foreach (var u in Model)
+            {
+                <tr>
+                    <td>@u.Nombre</td>
+                    <td>@u.Apellido</td>
+                    <td>@u.Correo</td>
+                    <td>
+                        <span class="badge bg-info text-dark">@u.Rol</span>
+                    </td>
+
+                    <td class="text-center">
+
+                        <a asp-action="Ver" asp-route-id="@u.IdUsuario" class="btn btn-info btn-sm">
+                            👁
+                        </a>
+
+                        <a asp-action="Editar" asp-route-id="@u.IdUsuario" class="btn btn-warning btn-sm">
+                            ✏️
+                        </a>
+
+                        <button class="btn btn-danger btn-sm" onclick="eliminar(@u.IdUsuario)">
+                            🗑
+                        </button>
+
+                    </td>
+                </tr>
+            }
+
+        </tbody>
+
+    </table>
 
 </div>
 
-<table class="table table-bordered">
+@if (TempData["Success"] != null)
+{
+    <script>
+        Swal.fire({
+            icon: 'success',
+            title: '@TempData["Success"]',
+            timer: 2000,
+            showConfirmButton: false
+        });
+    </script>
+}
 
-    <thead>
-        <tr>
-            <th>Nombre</th>
-            <th>Apellido</th>
-            <th>Correo</th>
-            <th>Rol</th>
-            <th>Acciones</th>
-        </tr>
-    </thead>
-
-    <tbody>
-
-        @foreach (var u in Model)
-        {
-            <tr>
-               
-                <td>@u.Nombre</td>
-                <td>@u.Apellido</td>
-                <td>@u.Correo</td>
-                <td>@u.Rol</td>
-
-                <td>
-
-                    <a asp-action="Ver" asp-route-id="@u.IdUsuario" class="btn btn-info btn-sm">
-                        Ver
-                    </a>
-
-                    <a asp-action="Editar" asp-route-id="@u.IdUsuario" class="btn btn-warning btn-sm">
-                        Editar
-                    </a>
-
-                    <a asp-action="Eliminar" asp-route-id="@u.IdUsuario" class="btn btn-danger btn-sm">
-                        Eliminar
-                    </a>
-
-                </td>
-
-            </tr>
-        }
-
-    </tbody>
-
-</table>
+<script>
+    function eliminar(id) {
+        Swal.fire({
+            title: '¿Eliminar usuario?',
+            text: "No podrás revertir esta acción",
+            icon: 'warning',
+            showCancelButton: true,
+            confirmButtonText: 'Sí, eliminar',
+            cancelButtonText: 'Cancelar'
+        }).then((result) => {
+            if (result.isConfirmed) {
+                window.location = '/Usuario/Eliminar/' + id;
+            }
+        });
+    }
+</script>
